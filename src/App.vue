@@ -3,7 +3,7 @@ import tmi from "@tmi.js/chat";
 import { streamers } from "./utils/streamers";
 import { onMounted, ref } from "vue";
 
-const MESSAGE_SPEED = 3;
+const MESSAGE_SPEED = 2;
 
 const messages = ref<{ username: string; message: string; color: string }[]>(
   []
